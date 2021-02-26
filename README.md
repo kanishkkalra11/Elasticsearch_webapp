@@ -8,7 +8,7 @@ This is an MVC based web app having a search functionality built using Elasticse
 ## How to run?
 1. Clone this repository to your system.
 2. Start Elasticsearch.
-3. Load sample-data.json onto the elastocsearch using the folllowing command.
+3. Load sample-data.json onto the elastocsearch using the folllowing command. (<a href="https://code-maze.com/elasticsearch-aspnet-core/">Source</a>)
 
 curl -XPOST localhost:9200/books/book/_bulk --data-binary @sample-data.json -H "Content-Type: application/json"
 
