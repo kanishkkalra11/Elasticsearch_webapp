@@ -10,8 +10,6 @@ This is an MVC based web app having a search functionality built using Elasticse
 2. Start Elasticsearch.
 3. Load sample-data.json onto the elastocsearch using the folllowing command.
 
-'''
 curl -XPOST localhost:9200/books/book/_bulk --data-binary @sample-data.json -H "Content-Type: application/json"
-'''
 
 4. Run the dbdsfsdbfbsnsanvsnv and send queries.
