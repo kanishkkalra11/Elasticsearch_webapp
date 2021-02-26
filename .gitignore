@@ -1,0 +1,4 @@
+.vs
+bin
+obj
+Elasticsearch_webapp.csproj.user
